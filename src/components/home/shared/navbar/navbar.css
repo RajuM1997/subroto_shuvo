@@ -1,0 +1,116 @@
+.nav_main_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #fff;
+  z-index: 3;
+  border-radius: 20px 20px 0px 0px;
+}
+.nav_border_radius {
+  border-radius: 20px 20px 0px 0px;
+}
+.nav_container {
+  background: transparent !important;
+  box-shadow: none !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+.nav_item_container {
+  display: flex !important;
+  justify-content: space-between;
+  background-color: #fff !important;
+  padding: 15px 0 !important;
+}
+
+.shape1_img {
+  position: absolute;
+  z-index: 1;
+  right: -60px;
+  top: -48px;
+}
+.shape2_img {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: -50px;
+  transform: rotate(180deg);
+  width: 150px;
+}
+.MuiContainer-root {
+  background: #fff;
+}
+.nav_container a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.nav_container a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.mobile_nav_container a {
+  color: #222;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.mobile_nav_container a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.mobile_nav_container svg,
+.nav_main_container svg {
+  color: #222;
+}
+.logo {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.logo_bg {
+  background-color: #1dbf73;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_bg h6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_container {
+  border-radius: 20px 20px 0px 0px;
+  padding: 0 60px !important;
+  padding-top: 10px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .header_container {
+    padding: 10px;
+  }
+  .shape1_img {
+    width: 70px;
+    right: -30px;
+    top: -28px;
+  }
+  .shape2_img {
+    width: 80px;
+  }
+  .header_container {
+    padding: 0 20px !important;
+  }
+  .logo {
+    margin-left: 15px;
+  }
+}

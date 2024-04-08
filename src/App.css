@@ -1,0 +1,91 @@
+html {
+  font-family: "Anek Latin", sans-serif;
+  scroll-behavior: smooth;
+}
+.common_bg_subroto {
+  background: #1d4825;
+  padding: 50px 0;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.common_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.common_pera {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.2;
+}
+.common_padding {
+  padding: 0px 0;
+}
+.common_title_with_line {
+  font-size: 24px;
+  font-weight: 600;
+  width: fit-content;
+  position: relative;
+  padding-top: 30px 0;
+}
+
+.common_title_with_line::before {
+  content: "";
+  bottom: -3px;
+  position: absolute;
+  width: 33%;
+  height: 3px;
+  background-color: #1dbf73;
+  z-index: 2;
+}
+.common_title_with_line::after {
+  content: "";
+  bottom: -3px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #d3d3d3;
+  z-index: 1;
+}
+
+.section_padding {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.main_container {
+  padding: 0 !important;
+}
+
+.main_content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+.container {
+  position: relative;
+}
+.shape {
+  position: absolute;
+}
+.outer_left_shape {
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_content {
+    width: 90% !important;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .common_pera {
+    font-size: 16px;
+  }
+}

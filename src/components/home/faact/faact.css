@@ -1,0 +1,32 @@
+.faact_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+.faact_card svg {
+  color: #1dbf73;
+  height: 50px;
+  width: 50px;
+}
+.faact_card h5 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 600;
+}
+.faact_card h2 {
+  color: #d3d3d3;
+  font-size: 24px;
+}
+.faact_main {
+  padding: 0 80px;
+}
+@media only screen and (max-width: 668px) {
+  .faact_main {
+    padding: 0 20px;
+  }
+}
